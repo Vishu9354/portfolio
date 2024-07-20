@@ -1,0 +1,42 @@
+body{
+    background-color: rgba(15,23,42,255);
+}
+.left{
+    border: 2px black solid;
+    width: 45%;
+    position: fixed;
+    height: 100%;
+
+}
+
+.font{
+    display: flex;
+    justify-content: center;
+    color:#d0d9ed;
+    font-family: 'Times New Roman', Times, serif;
+}
+.name {
+    font-size:50px;
+    margin-top: 100px;
+}
+.position{
+    font-size:30px;     
+}
+
+.detail{
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.navigation{
+    margin-top: 100px;
+    font-size: 25px;
+}
+/* .hr::before{
+    content: " ";
+    display: block;
+    height: 2px;
+    width: 100px;
+    position: absolute;
+    background-color: #d0d9ed;   
+} */
