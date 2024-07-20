@@ -69,11 +69,16 @@ body{
     margin-left: 50px;
     margin-right: 200px;
     margin-top: 50px;
-    border-radius: 10px;
+ 
 }
-.project:hover{
+.projectdetail:hover{
     border: 2px solid;
     background-color: rgba(20, 33, 64, 0.712);
+    border-radius:20px;
+    /* margin-top: 35px; */
+}
+.projectdetail{
+    margin-top: 35px
 }
 .time {
     /* background-color: blue; */
@@ -93,7 +98,7 @@ body{
     margin-top: 15px;
 }
 .skills{
-    margin-top: 7px;
+    margin-top: 15px;
 }
 .skill{
     margin: 8px;
